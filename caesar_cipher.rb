@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def caesar_cipher(string, factor)
   shift = factor % 26
 
@@ -17,5 +19,5 @@ def caesar_cipher(string, factor)
   result.join
 end
 
-p caesar_cipher("What a string!", 5)
+p caesar_cipher('What a string!', 5)
 # => "Bmfy f xywnsl!"
